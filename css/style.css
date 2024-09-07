@@ -27,7 +27,7 @@
   right: 30px; /* Jarak dari kanan layar */
   z-index: 99; /* Pastikan tombol berada di atas elemen lain */
   background-color: #555; /* Warna latar belakang tombol */
-  color: rgb(187, 11, 11); /* Warna teks pada tombol */
+  color: white; /* Warna teks pada tombol */
   border: none; /* Hilangkan border tombol */
   padding: 15px; /* Jarak dalam tombol */
   border-radius: 10px; /* Membuat sudut tombol bulat */
