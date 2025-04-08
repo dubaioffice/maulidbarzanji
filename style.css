@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #eaeaea;
+  background-image: linear-gradient(
+    179.1deg,
+    rgba(255, 250, 172, 1) 10.3%,
+    rgba(13, 167, 168, 1) 148%
+  );
+  background-size: 200%;
+  font-family: 'Mirza';
+}
+
+.navbar {
+  background-image: linear-gradient(
+    174.2deg,
+    rgba(255, 244, 228, 1) 7.1%,
+    rgba(240, 246, 238, 1) 67.4%
+  );
+  box-shadow: 0px 1px 10px rgb(98, 98, 98);
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover {
+  background-color: rgb(242, 155, 49);
+  transition: 0.3s;
+  transform: scale(1.07);
+}
+
+.footer {
+  background-image: linear-gradient(
+    174.2deg,
+    rgba(255, 244, 228, 1) 7.1%,
+    rgba(240, 246, 238, 1) 67.4%
+  );
+}
+
+.service-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.promo-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.row .service-box i {
+  font-size: 30px;
+  text-shadow: 2px 2px 4px #a4a4a4;
+}
+
+.container .service-box a {
+  font-family: 'Mirza';
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+/* .container img {
+  min-height: 100vh;
+  width: 500px;
+  height: 700px;
+} */
+
+@keyframes an-gradient {
+  0% {
+    background-position: top;
+  }
+
+  100% {
+    background-position: bottom;
+  }
+}
